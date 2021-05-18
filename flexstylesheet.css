@@ -1,8 +1,7 @@
 .flex-container
 {
     display: flex;
-    flex-flow: wrap;
-    justify-content: flex-start;
+    flex-flow: row no-wrap;
 }
 .inline-flex-container
 {
@@ -24,6 +23,7 @@
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+    width: 600px;
 }
 .inline-flex-container>div
 {
@@ -35,12 +35,15 @@
 .d1
 {
     order: 1;
+    flex-basis: 200px;
 }
 .d2
 {
-    order: 2;
+    order: 3;
+    flex-basis: 100px;
 }
 .d3
 {
-    order: 3;
+    order: 2;
+    flex-basis: 100px;
 }
