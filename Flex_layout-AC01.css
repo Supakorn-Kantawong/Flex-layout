@@ -1,0 +1,35 @@
+.flex-container
+{
+    display: flex;
+    flex-flow: row no-wrap;
+}
+.inline-flex-container
+{
+    display: inline-flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.bg-red
+{
+    background-color: red;
+}
+.bg-blue
+{
+    background-color: skyblue;
+}
+.flex-container>div
+{
+    background-color: darkgrey;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    width: 60px;
+}
+.inline-flex-container>div
+{
+    background-color: lightgrey;
+    margin: 20px;
+    padding: 10px 70px 10px 10px;
+    font-size: 25px;
+}
